@@ -1,5 +1,5 @@
 var parser = require('graphql/language/parser');
-
+//基于graphql这个包来完成的语法解析
 var parse = parser.parse;
 
 // Strip insignificant whitespace

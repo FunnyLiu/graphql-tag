@@ -1,3 +1,45 @@
+
+# 源码分析
+
+## 文件结构
+
+``` bash
+/Users/liufang/openSource/FunnyLiu/graphql-tag
+├── index.d.ts
+├── loader.js
+├── package.json
+├── rollup.config.js
+├── src
+|  ├── index.js
+|  └── index.js.flow
+└── yarn.lock
+
+directory: 1 file: 14
+
+ignored: directory (1)
+
+```
+
+## 外部模块依赖
+
+![img](./outer.svg)
+
+## 内部模块依赖
+
+![img](./inner.svg)
+  
+
+## 知识点
+
+### gql函数
+通过`var parser = require('graphql/language/parser')`，来解析graphql的语法。
+
+基于[此处](https://github.com/FunnyLiu/graphql-tag/blob/readsource/src/index.js#L1)
+
+
+
+
+
 # graphql-tag
 [![npm version](https://badge.fury.io/js/graphql-tag.svg)](https://badge.fury.io/js/graphql-tag)
 [![Build Status](https://travis-ci.org/apollographql/graphql-tag.svg?branch=master)](https://travis-ci.org/apollographql/graphql-tag)
