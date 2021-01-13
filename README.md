@@ -24,6 +24,8 @@ ignored: directory (1)
 
 ![img](./outer.svg)
 
+
+
 ## 内部模块依赖
 
 ![img](./inner.svg)
@@ -33,6 +35,8 @@ ignored: directory (1)
 
 ### gql函数
 通过`var parser = require('graphql/language/parser')`，来解析graphql的语法。
+
+具体源码：[graphql/language/parser](https://github.com/FunnyLiu/graphql-js/blob/readsource/src/language/parser.js#L116)
 
 基于[此处](https://github.com/FunnyLiu/graphql-tag/blob/readsource/src/index.js#L1)
 
